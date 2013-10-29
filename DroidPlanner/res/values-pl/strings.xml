@@ -49,7 +49,7 @@
     <string name="off">Wył.</string>
     <string name="write">Zapisz</string>
     <string name="refresh">Odśwież</string>
-    <string name="this_is_very_experimental_please_be_careful">Wersja bardzo eksperymentalna. Bądź ostrożny..</string>
+    <string name="this_is_very_experimental_please_be_careful">Wersja mocno eksperymentalna. Bądź ostrożny..</string>
     <string name="menu_advanced">Zaawansowane</string>
     <string name="menu_calibration">Kalibracja</string>
     <string name="rc_control">Sterowanie RC</string>
@@ -74,33 +74,33 @@
     <string name="mission_length">Długość misji</string>
     <string name="pictures">Obrazy</string>
     <string name="number_of_strips">Liczba przelotów</string>
-    <string name="loiter_time">Loiter-czas</string>
-    <string name="loiter_turn">Loiter-obrót </string>
+    <string name="loiter_time">Krążenie-czas</string>
+    <string name="loiter_turn">Krążenie-obrót </string>
     <string name="waypoint_delay">Opóźnienie przed następnym punktem</string>
-    <string name="loiter_radius">Loiter-promień</string>
+    <string name="loiter_radius">Krążenie-promień</string>
     <string name="loiter_ccw">W lewo</string>
     <string name="menu_arm">Aktywny</string>
 	<string name="menu_disarm">Nie aktywny</string>
     <string name="rtl_Land">Ląduj po osiągnięciu Miejsca Startu</string>
     <string name="takeoff_pitch">Min. kąt pochylenia</string>
-	<string name="waypointInfo_Land">Lądowanie statku w miejscu aktualnego położenia. Jeśli masz Sonar statek przestanie utrzymać pozycję na wys. 3m i zniży się w dół. Silniki nie wyłącza się samodzielnie. Aby je zatrzymać musisz ręcznie wyłączyć tryb automatyczny.</string>
+	<string name="waypointInfo_Land">Lądowanie statku powietrznego w miejscu aktualnego położenia. Jeśli masz Sonar statek przestanie utrzymać pozycję na wys. 3m i zniży się w dół. Silniki nie wyłączą się samodzielnie. Aby je zatrzymać musisz ręcznie wyłączyć tryb automatyczny.</string>
     <string name="waypointInfo_Generic">Std. punkt trasy.</string>
-    <string name="waypointInfo_Loiter">Włącza tryb Loiter w miejscu aktualnego położenia.</string>
-    <string name="waypointInfo_LoiterN">Włącza krążenie Loiter wokół miejsca aktualnego położenia.</string>
-    <string name="waypointInfo_LoiterT">Włącza tryb Loiter w miejscu aktualnego położenia. Opcjonalnie podaj pozycję zawisu w tym punkcie trasy. Zegar uruchamia się po osiągnięciu punktu.</string>
+    <string name="waypointInfo_Loiter">Włącza tryb krążenia w miejscu aktualnego położenia.</string>
+    <string name="waypointInfo_LoiterN">Włącza krążenie wokół miejsca aktualnego położenia.</string>
+    <string name="waypointInfo_LoiterT">Włącza tryb krążenia w miejscu aktualnego położenia. Opcjonalnie podaj pozycję zawisu w tym punkcie trasy. Zegar uruchamia się po osiągnięciu punktu.</string>
     <string name="waypointInfo_RTL">Powrót statku do Miejsca Startu zapamiętanego w momencie uzbrojenia (wymagany fix GPSa). Jeśli wysokość wynosi 0 statek będzie wracał na wysokości zdefiniowanej w parametrach programu Mission Panner.</string>
     <string name="waypointInfo_TakeOff">START statku na zadaną wysokość. Kąt Pochylenia używaj wyłącznie dla samolotów, dla kopterów pozostaw 0.</string>
     <string name="waypointInfo_Waypoint">Aktywacja opóźnienia następuje po osiągnięciu obszaru punktu. Następna komenda ładowana jest po upływie czasu opóźnienia. Opóźnienie podano w sekundach, domyślnie 0. Dla przelotów ustaw obszar krążenia na 0 lub określ jego promień w metrach. Kierunek określa kurs w danym punkcie - wyłącznie dla wirnikowców.</string>
     <string name="waypointDesc_Waypoint_1" formatted="false">Przejdź dalej bez późnień. Kurs %03.0f°</string>
     <string name="waypointDesc_Waypoint_2" formatted="false">Przejdź dalej po %1.1fs. Kurs %03.0f°</string>
-    <string name="waypointDesc_Loiter"  formatted="false">Tryb Loiter do następnej komendy. Promień %1.1fm %s. Kurs %03.0f°</string>
-    <string name="waypointDesc_LoiterN" formatted="false">Tryb Loiter. Wykonaj %1.0f obrot(ów). Promień %1.1fm %s. Kurs %03.0f°</string>
-    <string name="waypointDesc_LoiterT" formatted="false">Tryb Loiter przez %1.0fs. Promień %1.1fm %s. Kurs %03.0f°</string>
+    <string name="waypointDesc_Loiter"  formatted="false">Tryb krążenia do następnej komendy. Promień %1.1fm %s. Kurs %03.0f°</string>
+    <string name="waypointDesc_LoiterN" formatted="false">Tryb krążenia. Wykonaj %1.0f obrot(ów). Promień %1.1fm %s. Kurs %03.0f°</string>
+    <string name="waypointDesc_LoiterT" formatted="false">Tryb krążenia przez %1.0fs. Promień %1.1fm %s. Kurs %03.0f°</string>
     <string name="waypointDesc_Takeoff" formatted="false">Start z pochyleniem %1.2f°</string>
     <string name="waypointDesc_SetJump" formatted="false">Przeskocz do %d - %s</string>
     <string name="waypointDesc_SetHome" formatted="false">Miejsce Startu ustawione na</string>
     <string name="waypointDesc_SetSpeed" formatted="false">Prędkość %1.1fm/s z przepustnicą %1.0f%% , względem %s</string>
-    <string name="waypointDesc_SetRelay" formatted="false">Relay is set to</string>
+    <string name="waypointDesc_SetRelay" formatted="false">Przekaźnika jest ustawiony na</string>
     <string name="waypointDesc_SetRepeat" formatted="false">Repeating relay</string>
     <string name="waypointDesc_CondAlt" formatted="false">Wysokość docelowa %1.1fm z prędkością %1.1fm/s</string>
     <string name="waypointDesc_CondDist" formatted="false">Odległość docelowa %1.1fm</string>
